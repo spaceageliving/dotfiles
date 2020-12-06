@@ -1,6 +1,5 @@
 # Taps
 tap 'homebrew/cask'
-tap 'homebrew/cask-eid'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
@@ -8,7 +7,6 @@ tap 'homebrew/bundle'
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
-brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'gh'
@@ -35,8 +33,8 @@ brew 'gifsicle'
 
 # Development
 brew 'php'
+brew 'php@7.4'
 brew 'php@7.3'
-brew 'php@7.2'
 brew 'composer'
 brew 'imagemagick'
 brew 'libmemcached'
@@ -52,7 +50,6 @@ cask '1password'
 cask '1password-cli'
 cask 'aerial'
 cask 'alfred'
-cask 'bartender'
 cask 'caffeine'
 cask 'dbngin'
 cask 'discord'
@@ -65,9 +62,7 @@ cask 'google-chrome'
 cask 'gpg-suite'
 cask 'imageoptim'
 cask 'insomnia'
-cask 'java'
-cask 'mysqlworkbench'
-cask 'nvidia-geforce-now'
+cask 'notion'
 cask 'phpstorm'
 cask 'screenflow'
 cask 'skype'
@@ -77,8 +72,8 @@ cask 'sublime-text'
 cask 'tableplus'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
+cask 'there'
 cask 'tinkerwell'
-cask 'tor-browser'
 cask 'transmission'
 cask 'transmit'
 #cask 'vagrant'
@@ -93,7 +88,6 @@ cask 'qlcolorcode'
 cask 'qlmarkdown'
 cask 'quicklook-json'
 cask 'quicklook-csv'
-cask 'qlstephen'
 
 # Fonts
 cask 'font-lato'
@@ -111,4 +105,5 @@ mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 #mas 'Spark', id: 1176895641
 #mas 'Things', id: 904280696
+mas 'Speedtest', id: 1153157709
 mas 'Tweetbot', id: 1384080005

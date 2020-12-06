@@ -21,6 +21,9 @@ alias seed="php artisan db:seed"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
+alias php74="docker run -it -w /data -v ${PWD}:/data:delegated --entrypoint php --rm registry.gitlab.com/grahamcampbell/php:7.4"
+alias php8="docker run -it -w /data -v ${PWD}:/data:delegated --entrypoint php --rm registry.gitlab.com/grahamcampbell/php:8.0"
+alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
@@ -36,11 +39,6 @@ alias vrebuild="vagrant destroy --force && vagrant up"
 
 # Docker
 alias docker-composer="docker-compose"
-#alias dstop="docker stop $(docker ps -a -q)"
-#alias dpurgecontainers="dstop && docker rm $(docker ps -a -q)"
-#alias dpurgeimages="docker rmi $(docker images -q)"
-#dbuild() { docker build -t=$1 .; }
-#dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
 
 # Git
 alias gst="git status"
