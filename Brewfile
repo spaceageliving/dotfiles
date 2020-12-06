@@ -18,7 +18,7 @@ brew 'grep'
 brew 'httpie'
 brew 'hub'
 brew 'mackup'
-brew 'mas' # Mac App Store manager
+#brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'stripe'
 brew 'svn'
@@ -81,9 +81,9 @@ cask 'tinkerwell'
 cask 'tor-browser'
 cask 'transmission'
 cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox' # Might need to allow access in Security settings
-cask 'virtualbox-extension-pack'
+#cask 'vagrant'
+#cask 'virtualbox' # Might need to allow access in Security settings
+#cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'whatsapp'
@@ -105,10 +105,10 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Byword', id: 420212497
+#mas 'Byword', id: 420212497
 mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
-mas 'Spark', id: 1176895641
-mas 'Things', id: 904280696
+#mas 'Spark', id: 1176895641
+#mas 'Things', id: 904280696
 mas 'Tweetbot', id: 1384080005
